@@ -1,0 +1,68 @@
+/* Position Relative */
+/* .box-one {
+    background-color: pink;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 50px;
+    top: 100px;
+}
+.box-two {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+} */
+
+/* Position Absolute */
+.box-one {
+    background-color: pink;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 200px;
+}
+.box-two {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+
+/* Display Property */
+/* --INLINE-- */
+.hello,
+.world {
+    display: inline;
+}
+
+/* --BLOCK-- */
+.first-span {
+    /* display: block; */
+}
+
+/* --INLINE-BLOCK */
+.second-span {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: green;
+}
+
+/* GRID */
+.grid-sample {
+    display: grid;
+}
+
+.grid-one {
+    grid-row: 1;
+    grid-column: 1/3;
+}
+
+.grid-two {
+    grid-row: 1;
+    grid-column: 2/3;
+}
+
+.grid-three {
+    grid-row: 1;
+    grid-column: 3/3;
+}
